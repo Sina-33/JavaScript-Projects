@@ -1,0 +1,22 @@
+.dashboard {
+  padding: 20px;
+  background: linear-gradient(135deg, #43cea2, #185a9d); /* رنگ‌بندی زیبا */
+  min-height: 100vh; /* پوشش کل صفحه */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4); /* جلوه زیبا برای متن */
+  margin-bottom: 20px;
+}
+
+.weather-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}

@@ -1,0 +1,25 @@
+.weather-card {
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* طیف رنگ‌های طاووسی */
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* سایه ملایم */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* برای smooth شدن */
+  }
+  
+  .weather-card:hover {
+    transform: translateY(-8px); /* بالا آمدن کارت هنگام هاور */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* سایه عمیق‌تر هنگام هاور */
+  }
+  
+  .weather-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .weather-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
